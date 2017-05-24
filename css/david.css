@@ -1,12 +1,65 @@
-.reamde {
-  text-align: center;
-}
-.center {
-  margin: 0 auto;
-  float: none;
+body{
+background-color: #F0F0F0;
 }
 
-footer {
-  margin-top: 2em;
-  background: red;
+
+.brittpic {
+    width: 330px;
+    height: 330px;
+    position: fixed;
+    background-image: url('https://image.ibb.co/kaiASa/bbbritt.png');
+    border-radius: 50%;
+    left: 25%;
+    top: 15%;
+    z-index: -1;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    background-color: black;
+}
+
+/* visited link */
+a:visited {
+color: white;
+    background-color: black;
+}
+
+/* mouse over link */
+a:hover {
+color: white;
+    background-color: black;
+}
+
+/* selected link */
+a:active {
+color: white;
+    background-color: black;
+}
+
+.hello {
+position: fixed;
+left: 51%;
+top: 40%;
+font-family: garamond;
+font-size:      40px;
+font-weight:    bold;
+}
+
+.maintext {
+position: fixed;
+left: 51%;
+top: 47%;
+z-index: 0;
+width: 400px;
+font-family: arial;
+}
+
+.lilstrip{
+height: 70px;
+position: fixed; 
+bottom:0%;
+width:100%; 
+background-color: #000; 
 }
