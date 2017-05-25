@@ -1,0 +1,33 @@
+body {
+  line-height: 1.5;
+  color: white;
+
+  font-family: 'Lato', sans-serif;
+  background: url('../images/space.gif');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 500px;
+  margin: 40px;
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: -40px; 
+  font-family: 'Rokkitt', serif;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+a {
+  color: #ff7885;
+  text-decoration: none;
+}
