@@ -1,19 +1,33 @@
+body {
+  line-height: 1.5;
+  color:white;
+  font-family: 'Khula', sans-serif;
+  background:url('../images/boston.jpg');
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 
-body
-{
-background-color:#DCDCDC;
-font-family:"Abadi MT Condensed Light";
-font-size:24px;
+.container {
+  width: 500px;
+  margin: 40px;
+  background:rgba(0,0,0,0.5);
+  background-color:white;
+  padding:15px;
+  color:#034F5F;
+  font-style:bold;
+  border-radius:15px;
 }
 
 h1 {
-	text-align: center;
-	font-family:"Abadi MT Condensed Light";
-	font-weight:bold;
-	margin-bottom:0px;
+	font-size:80px;
+	margin-bottom:-20px;
+	color:#009CA7;
+	font-style:bold;
 }
 
-.email-class {
-	text-align:center;
-	font-family:"Abadi MT Condensed Light";
+a {
+	color:#FB5100;
+	text-decoration:none;
 }
